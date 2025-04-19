@@ -3,7 +3,7 @@ import { Link, Element } from "react-scroll";
 import { useState } from "react";
 import ContactSection from "./components/ContactSection";
 import "./App.css";
-import profilePic from "./assets/profile.jpg";
+import profilePic from "../public/profile.jpg";
 
 const skills = [
   "Python", "Java", "C", "C++", "Elixir", "TypeScript",
