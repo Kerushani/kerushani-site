@@ -1,0 +1,83 @@
+.contact-section {
+  color: #e0e0e0; /* Lighter text color */
+  background-color: #222; /* Dark background */
+  padding: 3rem 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #a0c4ff; /* Light blue for headings */
+}
+
+.contact-section p {
+  margin-bottom: 2rem;
+  color: #bbb; /* Light gray text */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #ccc; /* Lighter text for labels */
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #e0e0e0; /* Light text */
+  background: #333; /* Dark background */
+  border: 2px solid #444; /* Dark border */
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #a0c4ff; /* Highlight on focus with blue */
+  background-color: #444; /* Slightly lighter background on focus */
+  outline: none;
+}
+
+.submit-btn {
+  padding: 1rem 2rem;
+  background-color: #4682b4; /* Lighter blue */
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2b57b0; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+.success-message {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #a0c4ff; /* Light blue background for success message */
+  color: #222; /* Dark text */
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
