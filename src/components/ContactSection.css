@@ -37,9 +37,9 @@
   width: 100%;
   padding: 0.8rem;
   font-size: 1rem;
-  color: #e0e0e0; /* Light text */
-  background: #333; /* Dark background */
-  border: 2px solid #444; /* Dark border */
+  color: #e0e0e0; 
+  background: #333; 
+  border: 2px solid #444; 
   border-radius: 8px;
   margin-top: 0.5rem;
   transition: border-color 0.3s ease, background-color 0.3s ease;
@@ -47,14 +47,14 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #a0c4ff; /* Highlight on focus with blue */
-  background-color: #444; /* Slightly lighter background on focus */
+  border-color: #a0c4ff; 
+  background-color: #444; 
   outline: none;
 }
 
 .submit-btn {
   padding: 1rem 2rem;
-  background-color: #4682b4; /* Lighter blue */
+  background-color: #4682b4; 
   color: #fff;
   font-size: 1.1rem;
   border: none;
@@ -64,7 +64,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #2b57b0; /* Darker blue on hover */
+  background-color: #2b57b0;
   transform: scale(1.05);
 }
 
@@ -75,8 +75,8 @@
 .success-message {
   margin-top: 2rem;
   padding: 1rem;
-  background-color: #a0c4ff; /* Light blue background for success message */
-  color: #222; /* Dark text */
+  background-color: #a0c4ff; 
+  color: #222; 
   border-radius: 8px;
   font-size: 1.1rem;
   margin-bottom: 2rem;

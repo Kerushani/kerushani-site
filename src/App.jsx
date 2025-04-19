@@ -51,8 +51,20 @@ function App() {
         <Element name="about">
           <div className="container section">
             <h2>About Me</h2>
-            <p>I'm Kerushani and I'm a software engineer.</p>
-            <p>I am a Systems Design Engineering student at the University of Waterloo.</p>
+            <h3>I'm Kerushani and I'm a <strong style={{ color: '#a0c4ff' }}>software developer</strong>.</h3>
+            <p>
+  I'm a <strong style={{ color: '#a0c4ff' }}>Systems Design Engineering student</strong> at the University of Waterloo with a passion for building <strong style={{ color: '#a0c4ff' }}> systems</strong> and <strong style={{ color: '#a0c4ff' }}>impactful digital experiences</strong>. I've had the opportunity to work in <strong style={{ color: '#a0c4ff' }}>backend</strong>, <strong style={{ color: '#a0c4ff' }}>frontend</strong>, and <strong style={{ color: '#a0c4ff' }}>full-stack</strong> roles across industries like <strong style={{ color: '#a0c4ff' }}>manufacturing</strong>, <strong style={{ color: '#a0c4ff' }}>entertainment</strong>, and <strong style={{ color: '#a0c4ff' }}>AI tooling</strong>.
+</p>
+
+<p style={{ marginTop: '1rem' }}>
+  <em>
+    For more information on my experiences, feel free to{' '}
+    <a style={{ color: '#a0c4ff' }}>
+      contact me below
+    </a>
+    !
+  </em>
+</p>
           </div>
         </Element>
 
